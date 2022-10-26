@@ -1,7 +1,6 @@
 ## AUTOMATIC SCAN IP ADDRESS THRU VIRUSTOTAL API
 ## BY MRFAEEZ
 ## INSPIRED FROM https://www.youtube.com/watch?v=68hHkSRaWZs
-## if error, probably no results in database
 ## usage: python virustotalscan_ip.py <file.txt>
 
 ## WARNING! ONLY 4 REQUESTS/MIN FOR PUBLIC API ##
@@ -11,7 +10,7 @@ import sys
 
 api_key = "<api-key>"
 headers = {"accept": "application/json", "x-apikey": api_key}
-url = "https://www.virustotal.com/api/v3/files/"
+url = "https://www.virustotal.com/api/v3/ip_addresses/"
 contents = []
 n = 0
 
