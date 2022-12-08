@@ -10,8 +10,8 @@ exit /B
 
 :LOG
 
-rem change to the D directory
-cd /D C:\
+rem change to your desired directory
+@REM cd /D C:\
 
 echo Checking the files.........
 echo:
