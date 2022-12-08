@@ -1,4 +1,5 @@
-rem This batch file is meant for automatically search certain file and delete it. Please replace <filename> with your desire file name.
+rem This batch file is meant for automatically search certain file and delete it. Please replace <filename> with your desire file name. 
+rem Refer to the second version for a more comprehensive and faster version
 
 @echo off
 setlocal
@@ -13,7 +14,7 @@ exit /B
 rem change to the D directory
 @REM cd /D D:\
 
-echo Checking VPN files.........
+echo Checking the files.........
 echo:
 rem find and count files found
 dir /b <filename> /s 2> nul | find "" /v /c > %temp%\count
