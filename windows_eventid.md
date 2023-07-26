@@ -22,8 +22,9 @@ Splunk: index=windows_uf EventCode IN (code1, code2, ...)
 ### Check Admin Behavior
 1. 4767 - A user account was unlocked
 2. 4738 - A user account attribute is changed
+3. 4670 - Permissions on an object were changed
 
-## Event Flow
+## Event Flow/Relation
 ### Fail Logon
 4673 -> 4797 -> 4776 -> 4625
 
