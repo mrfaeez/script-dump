@@ -30,3 +30,6 @@ Splunk: index=windows_uf EventCode IN (code1, code2, ...)
 
 ### Success Logon
 4624 -> 4627
+
+
+Other resources: https://www.socinvestigation.com/threat-hunting-using-windows-security-log/
